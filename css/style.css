@@ -6,16 +6,20 @@
 }
 .sizing {
   margin: 0 10% 0 10%;
+  height: 100%;
+  position: relative;
 }
-/* Regole corpo della pagina */
-header {
-  background-color: #0031c4;
-  width: 100%;
-}
-.clearfix {
+.clearfix::after {
   content: "";
   display: table;
   clear: both;
+}
+/* Regole corpo della pagina */
+/* HEADER REGOLE */
+header {
+  background-color: #0031c4;
+  width: 100%;
+  height: 50vh;
 }
 #logo, nav {
   float: left;
@@ -25,9 +29,39 @@ nav{
 }
 li {
   display: inline;
-
 }
-img[src="img/background-header.png"] {
+#actiondx {
+  float: right;
+}
+/* #img {
   width: 800px;
   height: 400px
+} */
+.advertise {
+  position: absolute;
+  bottom: 50%;
+  left: 0;
+}
+/* REGOLE MAIN */
+#schoolstats {
+  background-color: grey;
+  width: 100%;
+  text-align:center;
+  padding: 40px 0;
+}
+#z {}
+.col {
+  float: left;
+  width: 33.3%;
+    text-align: center;
+}
+.z-content {
+
+}
+.img1 {
+  width: 100%;
+  height: auto;
+}
+.img-container {
+  width: 40%;
 }
