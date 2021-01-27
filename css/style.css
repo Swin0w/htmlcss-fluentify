@@ -1,0 +1,33 @@
+/* Regole generali della pagina */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.sizing {
+  margin: 0 10% 0 10%;
+}
+/* Regole corpo della pagina */
+header {
+  background-color: #0031c4;
+  width: 100%;
+}
+.clearfix {
+  content: "";
+  display: table;
+  clear: both;
+}
+#logo, nav {
+  float: left;
+}
+nav{
+  vertical-align: middle;
+}
+li {
+  display: inline;
+
+}
+img[src="img/background-header.png"] {
+  width: 800px;
+  height: 400px
+}
