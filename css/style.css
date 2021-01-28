@@ -39,7 +39,7 @@ header {
  li {
   display: inline;
   line-height: 50px;
-  margin-left: 5px;
+  margin-left: 10px;
   font-size: 15px;
 }
 #li-first {
@@ -81,11 +81,13 @@ a {
   border: 1px solid white;
   border-radius: 3px;
   color: white;
+  cursor: pointer;
 }
 #b2 {
   width: 160px;
   height: 40px;
   color: white;
+  cursor: pointer;
 }
 #b3 {
   width: 170px;
@@ -93,6 +95,7 @@ a {
   margin-top: 20px;
   background-color: #80cf32;
   color: white;
+  cursor: pointer;
 }
 /* REGOLE MAIN */
 /* PRIMA SEZIONE */
@@ -124,4 +127,38 @@ a {
 /* TERZA SEZIONE */
 #sect2 {
   margin-top: 50px;
+  margin-bottom: 50px;
+  width: 100%;
+}
+#sect2-img-dx{
+  float: left;
+  width: 30%;
+  margin-left: 100px;
+}
+#sect2-text{
+  float: left;
+  margin-left: 250px;
+  width: 20%;
+  text-align: justify;
+}
+#sect2-text-p {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #595959;
+}
+#sect2-a {
+  color: #00b3ff;
+  text-decoration: underline;
+}
+/* REGOLE FOOTER */
+footer {
+  background-color: lightgrey;
+  width: 100%;
+  height: 15vh;
+  position: relative;
+}
+#footext {
+  position: absolute;
+  top: 50%;
+  left: 0%;
 }
