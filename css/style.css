@@ -79,10 +79,11 @@ a {
 }
 #b2 {
   width: 160px;
+  height: 40px;
   color: white;
 }
 #b3 {
-  width: 150px;
+  width: 170px;
   height: 50px;
   margin-top: 20px;
   background-color: #80cf32;
@@ -98,12 +99,11 @@ a {
 }
 /* SECONDA SEZIONE */
 #mid-content {
-  margin: 50px 0 50px 0;
   width: 100%;
  }
 .col {
   float: left;
-  width: 33.3%;
+  width: 27%;
   text-align: center;
 }
 .img-main-sect1{
