@@ -33,7 +33,7 @@ header {
 }
  nav{
    color: white;
-   margin-left: 150px;px;
+   margin-left: 150px;
    display: inline-block;
 }
  li {
@@ -50,8 +50,8 @@ header {
 }
 #img {
   position: absolute;
-  bottom: 0;
-  right: -13%;
+  bottom: -4px;
+  right: 0;
   z-index: 1;
   margin: 0;
 }
@@ -104,7 +104,8 @@ a {
 }
 /* SECONDA SEZIONE */
 #mid-content {
-  margin-top: 20px;
+  margin-top: 50px;
+  margin-bottom: 50px;
   width: 100%;
  }
 .col {
@@ -121,3 +122,6 @@ a {
   margin-bottom: 20px;
 }
 /* TERZA SEZIONE */
+#sect2 {
+  margin-top: 50px;
+}
