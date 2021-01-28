@@ -4,6 +4,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+body {
+  font-family: 'Roboto', sans-serif;
+}
 .sizing {
   margin: 0 10% 0 10%;
   height: 100%;
@@ -21,47 +24,92 @@ header {
   width: 100%;
   height: 50vh;
 }
+#logo, nav, #actiondx {
+  margin-top: 20px;
+}
 #logo, nav {
   float: left;
 }
-nav{
-  vertical-align: middle;
+ nav{
+   color: white;
 }
-li {
+ #first {
+  margin: 0 2%;
+}
+ li {
   display: inline;
+  line-height: 50px;
+  margin-left: 5px;
+  font-size: 15px;
+}
+#li-first {
+  margin-left: 0;
 }
 #actiondx {
   float: right;
 }
-/* #img {
-  width: 800px;
-  height: 400px
-} */
+#img {
+  position: absolute;
+}
 .advertise {
   position: absolute;
-  bottom: 50%;
+  bottom: 33%;
   left: 0;
 }
+h1 {
+  font-size: 40px;
+  color: white;
+}
+.greenbutton {
+  background-color: #80cf32;
+  border: none;
+  border-radius: 3px;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+#b1 {
+  background-color: transparent;
+  width: 80px;
+  height: 30px;
+  border: 1px solid white;
+  border-radius: 3px;
+  color: white;
+}
+#b2 {
+  width: 160px;
+  color: white;
+}
+#b3 {
+  width: 150px;
+  height: 50px;
+  margin-top: 20px;
+  background-color: #80cf32;
+  color: white;
+}
 /* REGOLE MAIN */
+/* PRIMA SEZIONE */
 #schoolstats {
-  background-color: grey;
+  background-color: lightgrey;
   width: 100%;
   text-align:center;
   padding: 40px 0;
 }
-#z {}
+/* SECONDA SEZIONE */
+#mid-content {
+  margin: 50px 0 50px 0;
+  width: 100%;
+ }
 .col {
   float: left;
   width: 33.3%;
-    text-align: center;
+  text-align: center;
 }
-.z-content {
-
-}
-.img1 {
-  width: 100%;
-  height: auto;
-}
-.img-container {
+.img-main-sect1{
   width: 40%;
+  height: 200px;
+}
+.greentext {
+  color:#80cf32;
 }
